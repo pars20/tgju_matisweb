@@ -109,6 +109,7 @@ example:
 
 
 
+
 # Mix the options
 This is where the MAGIC happens! 🤩
 
@@ -124,6 +125,10 @@ example:
 
 > This will show the Title, next we change the unit to Tomans, then we show price, and other fields.
 
+
+
+ 
+
 ### Multiple units
 
 [TGJU matisweb geram18 title+**toman**+price+**rial**+change+changePercent+date]
@@ -138,6 +143,8 @@ example:
 `[TGJU matisweb geram18 toman+price+rial+price]`
 
 > Showing price in Tomans and also in Rialsa.
+
+
 
 ### Custom titles and words inside Options
 
