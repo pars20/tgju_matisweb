@@ -97,9 +97,12 @@ example:
 
 > This will show the Title, next we change the unit to Tomans, then we show price, and other fields.
 
+[TGJU matisweb geram18 title+toman+price+**rial**+change+changePercent+date]
+
 `[TGJU matisweb geram18 title+toman+price+rial+change+changePercent+date]`
 
 > This will show the Title, next we change the unit to Tomans, then we show price.
+>
 > Then we change the unit to Rial, and the fields after this will be shown in Rials.
 
 
