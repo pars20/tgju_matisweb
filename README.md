@@ -1,2 +1,13 @@
 # tgju_matisweb
-tgju live market prices wordpress plugin
+
+## Index Price
+Show the last trade price retrieved from the tgju
+`[TGJU matisweb INDEX_NAME]`
+
+examples:
+`[TGJU matisweb geram18]`
+`[TGJU matisweb geram24]`
+`[TGJU matisweb mesghal]`
+
+
+
