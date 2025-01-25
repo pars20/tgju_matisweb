@@ -110,9 +110,13 @@ example:
 
 
 # Mix the options
-We can use the options in combined way:
+This is where the MAGIC happens! 🤩
+
+You can combine these options to create custom outputs:
+
 
 `[TGJU matisweb INDEX_NAME option+option+...]`
+
 
 example:
 
