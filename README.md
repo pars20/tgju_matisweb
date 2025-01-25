@@ -1,7 +1,7 @@
 # MatisWeb TGJU Live Market Prices
 
 This is a plugin that gets the last market prices of the indexes form TGJU and save them.
-You will be able to show these data with **shortcodes** anywhere in your WP website ;
+You will be able to show these data with **shortcodes** anywhere in your WP website 🧐
 
 Here are the full document for the shortcode:
 
@@ -144,7 +144,7 @@ example:
 
 
 # CSS
-We can use these **css selectors** to customize all the parts of this shortcode in _fornt-end_:
+We can use these **css selectors** to customize all the parts of this shortcode in _fornt-end_: 😎
 
 ### Title
 `span#title`
