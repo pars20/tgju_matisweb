@@ -1,13 +1,14 @@
 # MatisWeb TGJU Live Market Prices
 
-This is a plugin that gets the last market prices of the indexes form TGJU and save them.
-You will be able to show these data with **shortcodes** anywhere in your WP website 🧐
+This plugin fetches the latest market prices for various indexes from TGJU and stores them.
+You can easily display this data anywhere on your WordPress website using shortcodes. 🧐
 
-Here are the full document for the shortcode:
+Here’s the complete documentation for the shortcode:
 
 
 ## Index Price
-Shows the last trade price retrieved from the tgju for the **INDEX_NAME**
+
+Displays the latest trade price fetched from TGJU for the specified index.
 
 `[TGJU matisweb INDEX_NAME]`
 
@@ -22,25 +23,25 @@ examples:
 
 
 # Options
-We have some option to get custom output with **shortcodes**
+We offer several options to generate custom outputs using **shortcodes**
 
 `[TGJU matisweb INDEX_NAME OPTIONS]`
 
 ### Options List
 
-**title** : Returns the title of the index
++ **title** : Returns the title of the index.
 
-**price** : Returns the price of the index
++ **price** : Returns the price of the index.
 
-**date** : The last time for retrieved price
++ **date** : The last time for retrieved price.
 
-**change** : Returns the +/- sign and the amount of change in compare with yesterday
++ **change** : Returns the +/- sign and the amount of change in compare with yesterday.
 
-**changePercent** : Returns the +/- Sign and the Percentage of change and the % sign
++ **changePercent** : Returns the +/- Sign and the Percentage of change and the % sign.
 
-**toman** : Returns nothing, changes the units to Toman
++ **toman** : Converts the unit to Toman (no direct output).
 
-**rial** : Returns nothing, changes the unit to Rials
++ **rial** : Converts the unit to Rials (no direct output).
 
 
 
