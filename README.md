@@ -112,6 +112,13 @@ example:
 
 > Showing price in Tomans and also in Rialsa.
 
+### Custom titles and words inside Options
+
+[TGJU matisweb geram18 toman+**قیمت:**+price+**تومان**+rial+price+**ریال**]
+
+`[TGJU matisweb geram18 toman+قیمت:+price+تومان+rial+price+ریال]`
+
+
 
 
 # CSS
