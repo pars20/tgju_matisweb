@@ -22,6 +22,8 @@ examples:
 `[TGJU matisweb mesghal]`
 
 
+<br/><br/>
+
 # Options
 We offer several options to generate custom outputs using **shortcodes**
 
@@ -108,6 +110,7 @@ example:
 `[TGJU matisweb geram18 title]`
 
 
+<br/><br/>
 
 
 # Mix the options
@@ -126,7 +129,7 @@ example:
 > This will show the Title, next we change the unit to Tomans, then we show price, and other fields.
 
 
-
+<br/><br/>
  
 
 ### Multiple units
@@ -137,6 +140,7 @@ example:
 
 > First we set the unit to Tomans, show price.0Then we change the unit to Rial, and the fields after this will be shown in Rials.
 
+<br/><br/>
 
 [TGJU matisweb geram18 **toman**+price+**rial**+price]
 
@@ -144,7 +148,7 @@ example:
 
 > Showing price in Tomans and also in Rialsa.
 
-
+<br/><br/>
 
 ### Custom titles and words inside Options
 
@@ -152,7 +156,7 @@ example:
 
 `[TGJU matisweb geram18 toman+قیمت:+price+تومان+rial+price+ریال]`
 
-
+<br/><br/>
 
 
 # CSS
