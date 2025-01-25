@@ -126,16 +126,14 @@ We can use these **css selectors** to customize all the parts of this shortcode 
 ### Change
 `span#change`
 
-      `span#change.up`
-      
-      `span#change.down`
+`span#change.up`
+`span#change.down`
 
 ### Change Percent
 `span#changePercent`
 
-      `span#changePercent.up`
-      
-      `span#changePercent.down`
+`span#changePercent.up`
+`span#changePercent.down`
 
 ### Date/Time
 `span#date`
