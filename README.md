@@ -1,4 +1,5 @@
-# tgju_matisweb
+# MatisWeb TGJU Live Market Prices
+
 
 ## Index Price
 Shows the last trade price retrieved from the tgju for the **INDEX_NAME**
