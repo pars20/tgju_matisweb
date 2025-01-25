@@ -117,14 +117,27 @@ example:
 # CSS
 We can use these **css selectors** to customize all the parts of this shortcode in _fornt-end_:
 
+### Title
 `span#title`
 
+### Price
 `span#price`
 
+### Change
 `span#change`
 
+      `span#change.up`
+      
+      `span#change.down`
+
+### Change Percent
 `span#changePercent`
 
+      `span#changePercent.up`
+      
+      `span#changePercent.down`
+
+### Date/Time
 `span#date`
 
 
