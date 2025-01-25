@@ -46,7 +46,7 @@ We offer several options to generate custom outputs using **shortcodes**
 
 
 ## Index Price in Tomans
-Shows the last trade price for the **INDEX_NAME** In **Tomans**
+Thia way we display the last trade price for the **INDEX_NAME** In **Tomans**
 
 `[TGJU matisweb INDEX_NAME toman+price]`
 
@@ -58,7 +58,7 @@ example:
 `[TGJU matisweb geram18 toman+price]`
 
 ## Index Price in Rials
-Shows the last trade price for the **INDEX_NAME** In **Rials**
+Thia way we display the last trade price for the **INDEX_NAME** In **Rials**
 
 `[TGJU matisweb INDEX_NAME rial+price]`
 
