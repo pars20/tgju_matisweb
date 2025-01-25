@@ -1,5 +1,10 @@
 # MatisWeb TGJU Live Market Prices
 
+This is a plugin that gets the last market prices of the indexes form TGJU and save them.
+You will be able to show these data with **shortcodes** anywhere in your WP website ;
+
+Here are the full document for the shortcode:
+
 
 ## Index Price
 Shows the last trade price retrieved from the tgju for the **INDEX_NAME**
