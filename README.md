@@ -35,6 +35,53 @@ example:
 `[TGJU matisweb geram18 toman+price]`
 
 
+## Price Change
+Shows the **Price change** in compared to the previous day's price
+
+`[TGJU matisweb INDEX_NAME change]`
+
+example:
+
+`[TGJU matisweb geram18 change]`
+
+## Price Change Percent
+Shows the **Price change percent** in compared to the previous day's price
+
+`[TGJU matisweb INDEX_NAME changePercent]`
+
+example:
+
+`[TGJU matisweb geram18 changePercent]`
+
+## Last trade time
+Shows the Time for the last trade which we have retrieved
+
+`[TGJU matisweb INDEX_NAME date]`
+
+example:
+
+`[TGJU matisweb geram18 date]`
+
+## Index Title
+Shows the Title of the **INDEX_NAME**
+
+`[TGJU matisweb INDEX_NAME title]`
+
+example:
+
+`[TGJU matisweb geram18 title]`
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
