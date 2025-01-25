@@ -34,6 +34,19 @@ example:
 
 `[TGJU matisweb geram18 toman+price]`
 
+## Index Price in Rials
+Shows the last trade price for the **INDEX_NAME** In **Rials**
+
+`[TGJU matisweb INDEX_NAME rial+price]`
+
+
+> description: The default unit is Rials and you do not need to use this option, but in the mixed options this can be useful
+
+example:
+
+`[TGJU matisweb geram18 rial+price]`
+
+
 
 ## Price Change
 Shows the **Price change** in compared to the previous day's price
@@ -73,7 +86,21 @@ example:
 
 
 
+# Mix the options
+We can use the options in combined way:
 
+`[TGJU matisweb INDEX_NAME option+option+...]`
+
+example:
+
+`[TGJU matisweb geram18 title+toman+price+change+changePercent+date]`
+
+> This will show the Title, next we change the unit to Tomans, then we show price, and other fields.
+
+`[TGJU matisweb geram18 title+toman+price+rial+change+changePercent+date]`
+
+> This will show the Title, next we change the unit to Tomans, then we show price.
+> Then we change the unit to Rial, and the fields after this will be shown in Rials.
 
 
 
