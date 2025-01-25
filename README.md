@@ -106,6 +106,20 @@ example:
 > Then we change the unit to Rial, and the fields after this will be shown in Rials.
 
 
+# CSS
+We can use these **css selectors** to customize all the parts of this shortcode:
+
+`span#title`
+
+`span#price`
+
+`span#change`
+
+`span#changePercent`
+
+`span#date`
+
+
 
 
 
