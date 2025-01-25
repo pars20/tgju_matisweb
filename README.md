@@ -115,7 +115,7 @@ example:
 
 
 # CSS
-We can use these **css selectors** to customize all the parts of this shortcode:
+We can use these **css selectors** to customize all the parts of this shortcode in _fornt-end_:
 
 `span#title`
 
