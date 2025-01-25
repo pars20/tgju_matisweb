@@ -21,6 +21,23 @@ We have some option to get custom output with **shortcodes**
 
 `[TGJU matisweb INDEX_NAME OPTIONS]`
 
+### Options List
+
+**title** : Returns the title of the index
+
+**price** : Returns the price of the index
+
+**date** : The last time for retrieved price
+
+**change** : Returns the +/- sign and the amount of change in compare with yesterday
+
+**changePercent** : Returns the +/- Sign and the Percentage of change and the % sign
+
+**toman** : Returns nothing, changes the units to Toman
+
+**rial** : Returns nothing, changes the unit to Rials
+
+
 
 ## Index Price in Tomans
 Shows the last trade price for the **INDEX_NAME** In **Tomans**
