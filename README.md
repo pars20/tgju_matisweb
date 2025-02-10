@@ -97,7 +97,7 @@ example:
 
 
 ## Last trade time
-Shows the Time for the last trade which we have retrieved
+Shows the Time for the last trade which we have retrieved.
 
 `[TGJU matisweb INDEX_NAME time]`
 
@@ -122,7 +122,7 @@ example:
 
 
 ## Last trade Date
-Shows the Date for the last trade which we have retrieved
+Shows the Date for the last trade which we have retrieved.
 
 `[TGJU matisweb INDEX_NAME date]`
 
@@ -144,7 +144,7 @@ example:
 
 
 ## Now Date
-Shows the Time for the last trade which we have retrieved
+Shows the Date/Time for Now.
 
 `[TGJU matisweb INDEX_NAME date]`
 
