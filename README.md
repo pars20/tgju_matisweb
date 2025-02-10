@@ -35,7 +35,11 @@ We offer several options to generate custom outputs using **shortcodes**
 
 + **price** : Returns the price of the index.
 
-+ **date** : The last time for retrieved price.
++ **time** : The Time for last retrieved price.
+  
++ **date** : The Date for last retrieved price.
+
++ **dateNow** : The current Date.
 
 + **change** : Returns the +/- sign and the amount of change in compare with yesterday.
 
@@ -91,7 +95,55 @@ example:
 
 `[TGJU matisweb geram18 changePercent]`
 
+
 ## Last trade time
+Shows the Time for the last trade which we have retrieved
+
+`[TGJU matisweb INDEX_NAME time]`
+
+example:
+
+`[TGJU matisweb geram18 time]`
+
+
+### format time
+
+You can use **DateTimeInterface::format** to format this field.
+
+[TGJU matisweb INDEX_NAME time:**H:i:s**]
+
+example:
+
+`[TGJU matisweb geram18 time:H:i]`
+
+> Note: Use %20 for SPACE character in formating.
+
+
+
+
+## Last trade Date
+Shows the Date for the last trade which we have retrieved
+
+`[TGJU matisweb INDEX_NAME date]`
+
+example:
+
+`[TGJU matisweb geram18 date]`
+
+### format Date
+
+You can use **DateTimeInterface::format** to format this field.
+
+[TGJU matisweb INDEX_NAME date:**Y/n/j**]
+
+example:
+
+`[TGJU matisweb geram18 date:y/m/d]`
+
+> Note: Use %20 for SPACE character in formating.
+
+
+## Now Date
 Shows the Time for the last trade which we have retrieved
 
 `[TGJU matisweb INDEX_NAME date]`
@@ -99,6 +151,24 @@ Shows the Time for the last trade which we have retrieved
 example:
 
 `[TGJU matisweb geram18 date]`
+
+### format Date
+
+You can use **DateTimeInterface::format** to format this field.
+
+[TGJU matisweb INDEX_NAME dateNow:**Y/n/j**]
+
+example:
+
+`[TGJU matisweb geram18 dateNow:y/m/d%20H:i:s]`
+
+> Note: Use %20 for SPACE character in formating.
+
+
+
+> Here is the list of DateTime format characters [DateTime Format in PHP](https://www.php.net/manual/en/datetime.format.php).
+
+
 
 ## Index Title
 Shows the Title of the **INDEX_NAME**
